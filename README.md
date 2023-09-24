@@ -1,5 +1,14 @@
 # IDS706 Mini-Project 4
+[![Python-3.7](https://github.com/nogibjj/IDS706-miniproject4/actions/workflows/python-ci.yml/badge.svg)](https://github.com/nogibjj/IDS706-miniproject4/actions/runs/6287611890/job/17072249768) **- Python-3.7**
 
+[![Python-3.8](https://github.com/nogibjj/IDS706-miniproject4/actions/workflows/python-ci.yml/badge.svg)](https://github.com/nogibjj/IDS706-miniproject4/actions/workflows/python-ci.yml) **- Python-3.8**
+
+[![Python-3.9](https://github.com/nogibjj/IDS706-miniproject4/actions/workflows/python-ci.yml/badge.svg)](https://github.com/nogibjj/IDS706-miniproject4/actions/workflows/python-ci.yml) **- Python-3.9**
+
+[![Python-3.10](https://github.com/nogibjj/IDS706-miniproject4/actions/workflows/python-ci.yml/badge.svg)](https://github.com/nogibjj/IDS706-miniproject4/actions/workflows/python-ci.yml) **- Python-3.10**
+
+
+![Alt text](img/matrix_tests.png)
 This repository is designed to utilize GitHub Actions for testing various Python versions and operating systems. It leverages a Matrix strategy to concurrently execute multiple testing tasks, enhancing efficiency.
 
 ``Matrix testing`` ensures that any potential compatibility issues are identified early in the development process, reducing the likelihood of encountering unexpected errors in production. This systematic approach also allows for smoother collaboration among team members, as it provides a standardized testing framework across different development environments.
