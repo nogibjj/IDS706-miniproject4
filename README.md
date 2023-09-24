@@ -1,16 +1,16 @@
-# Python Template
+# IDS706 Mini-Project 4
 
-A general use Python template.
+This repository is designed to utilize GitHub Actions for testing various Python versions and operating systems. It leverages a Matrix strategy to concurrently execute multiple testing tasks, enhancing efficiency.
 
-[![Build Status](https://github.com/NickStrauch13/python-template/actions/workflows/python-ci.yml/badge.svg)](https://github.com/NickStrauch13/python-template/actions)
+``Matrix testing`` ensures that any potential compatibility issues are identified early in the development process, reducing the likelihood of encountering unexpected errors in production. This systematic approach also allows for smoother collaboration among team members, as it provides a standardized testing framework across different development environments.
+
+
+[![Build Status](https://github.com/nogibjj/IDS706-miniproject4/actions/workflows/python-ci.yml/badge.svg)](https://github.com/nogibjj/IDS706-miniproject4/actions)
 
 ## About the template
 - Inside the ``.devcontainer`` directory, you'll find a Dockerfile and devcontainer.json. The Dockerfile outlines how to construct the container, while other settings in this directory manage the development environment configuration.
 
-**Note:** Modify the python path to the appropriate repository name in the Dockerfile:
-![Alt text](img/path_line.png)
-
-- The ``.github/workflows`` directory houses GitHub Actions configurations, enabling the setup of automated pipelines for building, testing, and deploying your project.
+- The ``.github/workflows`` directory houses GitHub Actions configurations, enabling the setup of automated pipelines for building, testing, and deploying your project. This is where the matrix strategy is defined.
 
 - The ``.gitignore`` file is utilized to specify which files or directories should be excluded from version control when utilizing Git.
 
