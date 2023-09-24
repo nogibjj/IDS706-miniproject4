@@ -6,7 +6,7 @@
 [![Python-3.9](https://github.com/nogibjj/IDS706-miniproject4/actions/workflows/python-ci.yml/badge.svg)](https://github.com/nogibjj/IDS706-miniproject4/actions/runs/6287681564/job/17072392530) **- Python-3.9**
 
 [![Python-3.10](https://github.com/nogibjj/IDS706-miniproject4/actions/workflows/python-ci.yml/badge.svg)](https://github.com/nogibjj/IDS706-miniproject4/actions/runs/6287681564/job/17072392621) **- Python-3.10**
-
+ 
 ---
 ![Alt text](img/matrix_tests.png)
 ---
